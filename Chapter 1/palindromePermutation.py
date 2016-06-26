@@ -17,6 +17,8 @@ def palinPerm(s):
 
 	return oddCount < 2
 
+#TO-DO: try bit vector
+
 class Test(unittest.TestCase):
 	def test(self):
 		self.assertTrue(palinPerm('Tact Coa'))
